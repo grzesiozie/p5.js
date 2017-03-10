@@ -25,7 +25,7 @@ function draw() {
   for(i = 0; i < points.length - 1; i++)
   {
     //strokeWeight(pow(i, 1/4));
-    strokeWeight(i*0.001);
+    //strokeWeight(i*0.01);
     points[i].show();
   }
 
